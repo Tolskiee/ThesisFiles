@@ -550,19 +550,12 @@ def write_file(stemmed_info, word_root, root):
 def check_validation(token):
 	with open('validation.txt', 'r') as valid:
 		data = valid.read().replace('\n', ' ').split(' ')
-		# data = set([line.strip('\n') for line in valid.readlines()])
 
 	return True if token in data else False
 
 
 
 def validate(stemmed, errors):
-	"""
-		Calculates accuracy.
-			stemmed: list of stemmed words
-			errors: list of stemming errors
-		returns FLOAT
-	"""
 
 	check = 0
 
@@ -577,32 +570,5 @@ def validate(stemmed, errors):
 		else:
 			errors.append(stem)
 	
-	return format((float(check) / len(stemmed) * 100), '.2f') # Python 2.7
-	# return format((check / len(stemmed) * 100), '.2f') # Python 3.0
+	return format((check / len(stemmed) * 100), '.2f') # Python 3.0
 
-
-
-mode = sys.argv[1] # 1: Text File // 2: Raw String
-source = sys.argv[2] # 1: .txt name // 2: raw string
-info_dis = sys.argv[3] # 1: no info // 2: show info
-
-if __name__ == "__main__":
-	stemmer(mode, source, info_dis)
-
-
-"""
-TODOS:
-	mangingisdang : gingisda
-	napapakinggan : pakingg
-	if prefix[-1] = c >> should be v + c
-	partial >> if token[0] == token[1][0:len(token[0])] >> ret token[1]
-	prefix >> if - in token > if tok - prefix != tok2 > return token
-	punong-bayan : punong-bay
-	tagpuan : puan
-	katangi-tanging : tangi-tang
-	panana = s?
-	nin?
-	syon?
-	Validation: 5000
-	Karatagan - ragatan??
-"""
