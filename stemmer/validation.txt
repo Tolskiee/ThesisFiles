@@ -2,6 +2,7 @@
 aklas
 aklat
 atbp
+salamin
 buwana
 aplikasyo
 bahala
