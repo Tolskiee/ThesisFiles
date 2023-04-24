@@ -236,7 +236,7 @@ sekondarya
 ilalaraw
 Qurn
 putahe
-nugnog
+nognog
 nars
 ambon
 titser
@@ -1266,6 +1266,7 @@ Kristiyanismo
 sosyo
 gulpi
 dalantao
+mayor
 bisig
 laboratoryo
 timo
@@ -1525,6 +1526,7 @@ gusali
 talo
 administratibo
 leksyon
+duterte
 lapis
 galinga
 pinta
@@ -1594,7 +1596,7 @@ yabang
 Gentil
 detensyon
 ulumi
-Malacañang
+Malacaï¿½ang
 bigyang-di
 indibiduwal
 atas
@@ -1677,6 +1679,7 @@ resentasyon
 gayon
 sabat
 silyo
+straight
 ristal
 sabaw
 hala
@@ -1797,6 +1800,7 @@ propesyunal
 poligamo
 Nasareno
 lupon
+tandem
 Cavite
 bibig
 taon
@@ -2089,6 +2093,7 @@ dakpin
 paham
 bodega
 puson
+presidente
 hirit
 itika
 unggoy
@@ -3552,11 +3557,18 @@ teritoryal
 Fariseo
 debelopmental
 nagot
+irita
 imprenta
+jejomar
 hagi
 alila
 timbang
 Purita
+mar
+roxas
+tangina
+tang
+binay
 solido
 ordinaryo
 pasan
@@ -4595,7 +4607,6 @@ tindera
 hustisya
 lakas-loob
 maging
-taong-bay
 reproduktibo
 gawit
 hwag
