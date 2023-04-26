@@ -2,7 +2,7 @@ def lemmatize_tagalog_english(tokens):
   
   import nltk
   from nltk.corpus import wordnet
-  from nltk.tokenize import word_tokenize
+  # from nltk.tokenize import word_tokenize
   from nltk.stem import WordNetLemmatizer
   from tg_stem import tg_stemmer
   
